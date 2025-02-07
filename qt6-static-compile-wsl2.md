@@ -21,6 +21,22 @@ clang-14 lldb-14 lld-14 libclang-14-dev llvm-14-dev
 ```
 
 ```
+sudo apt update
+sudo apt install -y build-essential libssl-dev
+cd /tmp
+wget https://github.com/Kitware/CMake/releases/download/v3.22.1/cmake-3.22.1.tar.gz
+tar -zxvf cmake-3.22.1.tar.gz
+cd cmake-3.22.1
+./bootstrap
+make -j$(nproc)
+sudo make install
+sudo apt-get update
+sudo apt-get install libzstd-dev
+
+```
+
+
+```
 ./configure -opensource -confirm-license -static -nomake tests -nomake examples \
     -skip qt3d -skip qt5compat -skip qtquick3d -skip qtwayland -skip qtquickcontrols \
     -skip qtquickcontrols2 -skip qtmultimedia -skip qtsensors -skip qtlocation \
