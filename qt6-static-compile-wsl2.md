@@ -15,7 +15,7 @@ libxcb-image0-dev libxcb-shm0-dev libxcb-icccm4-dev libxcb-sync-dev \
 libxcb-xfixes0-dev libxcb-shape0-dev libxcb-randr0-dev libxcb-util-dev \
 libxcb-xinerama0-dev libxkbcommon-dev libxkbcommon-x11-dev libatspi2.0-dev \
 libdrm-dev libgbm-dev libegl1-mesa-dev libgles2-mesa-dev libopus-dev \
-libminizip-dev libjsoncpp-dev libprotobuf-dev protobuf-compiler \
+libminizip-dev libjsoncpp-dev libprotobuf-dev protobuf-compiler cmake\
 clang-14 lldb-14 lld-14 libclang-14-dev llvm-14-dev
 
 ```
