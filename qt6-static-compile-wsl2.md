@@ -4,6 +4,7 @@
 git clone https://github.com/qt/qt5.git qt6
 cd qt6
 git checkout 6.2.4
+./init-repository
 ```
 ```
 sudo apt-get update
